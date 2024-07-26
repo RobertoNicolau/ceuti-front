@@ -27,6 +27,9 @@ const ICONS = {
   analytics: getIcon('ic_analytics'),
   dashboard: getIcon('ic_dashboard'),
   menuItem: getIcon('ic_menu_item'),
+
+  // custom
+  partners: getIcon('ic_partners'),
 };
 
 const navConfig = [
@@ -40,6 +43,7 @@ const navConfig = [
       { title: 'analytics', path: PATH_DASHBOARD.general.analytics, icon: ICONS.analytics },
       { title: 'banking', path: PATH_DASHBOARD.general.banking, icon: ICONS.banking },
       { title: 'example', path: PATH_DASHBOARD.general.example, icon: ICONS.example },
+      { title: 'partners', path: PATH_DASHBOARD.general.partners, icon: ICONS.partners },
       { title: 'booking', path: PATH_DASHBOARD.general.booking, icon: ICONS.booking },
     ],
   },
